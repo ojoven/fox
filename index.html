@@ -1,0 +1,156 @@
+<html>
+
+<head>
+	<title>Fox</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preload" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<audio class="audio-player" loop preload="auto">
+		<source src="./mp3/music.mp3" type="audio/mp3">
+	</audio>
+
+	<a href="#" class="audio js-to-control-audio" data-playing="paused">
+
+		<svg class="playing" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff"
+			viewBox="0 0 256 256">
+			<rect width="256" height="256" fill="none"></rect>
+			<path d="M218.88231,77.08831a72,72,0,0,1,0,101.82338" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></path>
+			<path d="M80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l72-56V224Z" fill="none" stroke="#fff"
+				stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+			<line x1="80" y1="88" x2="80" y2="168" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></line>
+			<path d="M190.59793,105.37258a32,32,0,0,1,0,45.25484" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></path>
+		</svg>
+
+		<svg class="paused" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#fff" viewBox="0 0 256 256">
+			<rect width="256" height="256" fill="none"></rect>
+			<path d="M218.88817,77.0999a72,72,0,0,1,0,101.82337" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></path>
+			<line x1="79.99414" y1="88.01159" x2="79.99414" y2="168.01159" fill="none" stroke="#fff"
+				stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+			<path d="M190.60379,105.38417a32,32,0,0,1,0,45.25483" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></path>
+			<line x1="48" y1="40" x2="208" y2="216" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></line>
+			<path d="M152,154.4v69.61162l-72-56H32a8,8,0,0,1-8-8v-64a8,8,0,0,1,8-8H80L86.82274,82.705" fill="none"
+				stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+			<polyline points="112.156 63.001 152 32.012 152 106.829" fill="none" stroke="#fff" stroke-linecap="round"
+				stroke-linejoin="round" stroke-width="16"></polyline>
+		</svg>
+
+	</a>
+
+	<div class="container">
+		<div class="text">
+			<div class="text__supra">I heard you like foxes, Santi.</div>
+			<div class="text__main">Enjoy these</div>
+			<div class="text__infra">and give'em love</div>
+		</div>
+
+		<ul class="options">
+			<li><a href="#" class="options__option js-to-mode is-active" data-mode="snow">Snowy</a></li>
+			<li><a href="#" class="options__option js-to-mode" data-mode="red">Reddy</a></li>
+		</ul>
+
+		<div class="fox-container">
+			<div class="fox">
+				<div class="leg-outer">
+					<div class="leg">
+						<div class="paw">
+							<div class="log">
+								<div class="log-inner">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="leg-outer">
+					<div class="leg">
+						<div class="paw">
+							<div class="log">
+								<div class="log-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hind-leg-outer">
+					<div class="hind-leg-outer2">
+						<div class="hind-paw">
+							<div class="hind-log">
+								<div class="hind-log-inner">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hind-leg-outer">
+					<div class="hind-leg-outer2">
+						<div class="hind-paw">
+							<div class="hind-log">
+								<div class="hind-log-inner">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="body">
+					<div class="head">
+						<div class="ears">
+							<div class="ear"></div>
+							<div class="ear"></div>
+						</div>
+						<div class="face"></div>
+						<div class="snout"></div>
+					</div>
+					<div class="tail">
+						<div class="tail">
+							<div class="tail">
+								<div class="tail">
+									<div class="tail">
+										<div class="tail">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tail2">
+							<div class="tail">
+								<div class="tail">
+									<div class="tail">
+										<div class="tail">
+											<div class="tail">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="snow"></div>
+
+	<div class="disclaimer">
+		Una simple adaptación de <a href="https://codepen.io/davidkpiano/pen/woZNbB" target="_blank">este pen tan
+			chulo de davidkpiano</a>
+	</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+	integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+<script src="./js/app.js"></script>
+
+</html>
